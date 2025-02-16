@@ -34,6 +34,7 @@ spec:
     - name: vip_retryperiod
       value: "1"
     - name: address
+      value: 192.168.8.30
       value: 192.168.8.31
     image: ghcr.io/kube-vip/kube-vip:latest
     imagePullPolicy: Always
